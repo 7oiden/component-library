@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.badge {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  display: inline-flex;
+  padding: 0.375rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+}
+.badge__square {
+  border-radius: 0.25rem;
+}
+.badge__rounded {
+  border-radius: 0.75rem;
+}
+.badge--default {
+  background-color: #f3f4f6;
+  color: #1F2937;
+}
+.badge--gray {
+  background-color: #f3f4f6;
+  color: #1F2937;
+}
+.badge--red {
+  background-color: #fee2e2;
+  color: #991B1B;
+}
+.badge--yellow {
+  background-color: #fef3c7;
+  color: #92400E;
+}
+.badge--green {
+  background-color: #d1fae5;
+  color: #065F46;
+}
+.badge--blue {
+  background-color: #dbeafe;
+  color: #1E40AF;
+}
+.badge--indigo {
+  background-color: #e0e7ff;
+  color: #3730A3;
+}
+.badge--purple {
+  background-color: #ede9fe;
+  color: #5B21B6;
+}
+.badge--pink {
+  background-color: #fce7f3;
+  color: #9D174D;
+}/*# sourceMappingURL=styles.css.map */

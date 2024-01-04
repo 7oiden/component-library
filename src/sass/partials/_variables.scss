@@ -1,0 +1,24 @@
+$badge-font: "Inter", sans-serif;
+
+$colors: (
+  gray: #f3f4f6,
+  red: #fee2e2,
+  yellow: #fef3c7,
+  green: #d1fae5,
+  blue: #dbeafe,
+  indigo: #e0e7ff,
+  purple: #ede9fe,
+  pink: #fce7f3,
+  grayText: #1F2937,
+  redText: #991B1B,
+  yellowText: #92400E,
+  greenText: #065F46,
+  blueText: #1E40AF,
+  indigoText: #3730A3,
+  purpleText: #5B21B6,
+  pinkText: #9D174D,
+);
+
+@function getColor($color) {
+  @return map-get($colors, $color);
+}

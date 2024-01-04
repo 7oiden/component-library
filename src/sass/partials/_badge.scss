@@ -1,0 +1,62 @@
+.badge {
+  font-family: $badge-font;
+  font-size: 1.25rem;
+  font-weight: 500;
+  display: inline-flex;
+  padding: 0.375rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+
+  &__square {
+    border-radius: 0.25rem;
+  }
+
+  &__rounded {
+    border-radius: 0.75rem;
+  }
+
+  &--default {
+    background-color: getColor(gray);
+    color: getColor(grayText);
+  }
+
+  &--gray {
+    background-color: getColor(gray);
+    color: getColor(grayText);
+  }
+
+  &--red {
+    background-color: getColor(red);
+    color: getColor(redText);
+  }
+
+  &--yellow {
+    background-color: getColor(yellow);
+    color: getColor(yellowText);
+  }
+
+  &--green {
+    background-color: getColor(green);
+    color: getColor(greenText);
+  }
+
+  &--blue {
+    background-color: getColor(blue);
+    color: getColor(blueText);
+  }
+
+  &--indigo {
+    background-color: getColor(indigo);
+    color: getColor(indigoText);
+  }
+
+  &--purple {
+    background-color: getColor(purple);
+    color: getColor(purpleText);
+  }
+
+  &--pink {
+    background-color: getColor(pink);
+    color: getColor(pinkText);
+  }
+}
